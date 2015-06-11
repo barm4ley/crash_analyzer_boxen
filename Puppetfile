@@ -67,7 +67,10 @@ github "elasticsearch", "2.8.0"
 github "iterm2", "1.2.4"
 github "java", "1.8.2"
 github "limechat", "1.1.0", :repo => "mozilla-boxen/puppet-limechat"
-github "python", "1.3.0"
+
+#github "python", "1.3.0"
+github "python", "2.0.0"
+
 github "redis", "3.1.0"
 github "skype", "1.1.0"
 github "transmission", "1.1.0"
