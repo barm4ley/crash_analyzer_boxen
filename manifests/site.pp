@@ -64,7 +64,7 @@ node default {
   include vagrant
 
   # include personal user settings
-  include people::$login
+  #include people::$login
 
   # fail if FDE is not enabled
   #if $::root_encrypted == 'no' {
