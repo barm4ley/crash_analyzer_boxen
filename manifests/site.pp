@@ -58,6 +58,14 @@ node default {
   include hub
   include nginx
 
+  include iterm2::stable
+
+  include virtualbox
+  include vagrant
+
+  # include personal user settings
+  include people::$login
+
   # fail if FDE is not enabled
   #if $::root_encrypted == 'no' {
     #fail('Please enable full disk encryption and try again')
@@ -75,6 +83,9 @@ node default {
   ruby::version { '2.1.1': }
   ruby::version { '2.1.2': }
 
+  python::version { '2.7.7': }
+  python::version { '3.4.1': }
+
   # common, useful packages
   package {
     [
@@ -89,4 +100,3 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
-}
