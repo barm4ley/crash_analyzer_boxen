@@ -79,7 +79,7 @@ node default {
   package {
     [
       'ack',
-      'the_silver_searcher'
+      'the_silver_searcher',
       'findutils',
       'gnu-tar'
     ]:
