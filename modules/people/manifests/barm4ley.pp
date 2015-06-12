@@ -1,5 +1,6 @@
 class people::barm4ley {
 
+  # List of software I want to be installed
   include iterm2::dev
   include slate
   include wget
@@ -10,7 +11,6 @@ class people::barm4ley {
   include flowdock
   include skype
   include vim
-
 
   include virtualbox
   include vagrant
