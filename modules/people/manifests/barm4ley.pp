@@ -4,6 +4,7 @@ class people::barm4ley {
   include iterm2::dev
   include slate
   include wget
+  include zsh
   include ohmyzsh
 
   include chrome
